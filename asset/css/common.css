@@ -1,0 +1,80 @@
+body {
+    font-size: 12px;
+    line-height: 16px;
+    color: #202020;
+    font-family: -apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+}
+.blind {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+}
+.inner {
+    width: 1130px;
+    margin: 0 auto;
+}
+.thumb-bd {
+    display: block;
+    position: relative;
+}
+.thumb-bd::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid #000;
+    opacity: 0.1;
+}
+.ico-dot {
+    width: 2px;
+    height: 2px;
+    display: inline-block;
+    margin: 0 2px;
+    background-color: rgba(32,32,32,.8);
+    border-radius: 50%;
+    vertical-align: 4px;
+}
+.header .logo,
+.header .search-area .btn-submit::after,
+.header .service-area .link-start::after,
+.header .service-area .link-junior::after,
+.header .service-area .link-bin::after,
+.header .weather-text .condition::before,
+.header .gnb-area .btn-more::after,
+.header .gnb1-list .nav.mail::before,
+.header .gnb1-list .nav.shopping::before,
+.header .gnb1-list .nav.tv::before,
+.sc-news .group-issue .link-media::after,
+.sc-news .group-title .link-newsstand::before,
+.sc-news .group-title .link-newsstand::after,
+.sc-news .group-title .btn-set.ic-list::after,
+.sc-news .group-title .btn-set.ic-tile::after,
+.sc-news .group-title .btn-set.ic-set::after,
+.sc-login .link-login::before,
+.sc-login .sub-area .link-id::before,
+.sc-login .sub-area .link-join::before,
+.sc-timesquare .navi-area .btn-nav::before,
+.sc-themepost .info-area .btn-set::before,
+.sc-themepost .theme-title .link-title::after,
+.sc-themepost .btn-more-wrap .btn-more::before,
+.footer .notice-area .link-all::after {
+    background-image: url(../images/sp-bg.png);
+    background-repeat: no-repeat;
+    background-size: 457px;
+}
+
+.sc-shop .group-title .link-shopping::before,
+.sc-shop .group-title .link-shopping::after,
+.sc-shop .btn::before,
+.sc-shop .group-plusdeal .link-oneplusdeal::after,
+.sc-shop .deal-img-area .ico-one-plus,
+.sc-shop .deal-img-area .deal-img-box+.deal-img-box::before {
+    background-image: url(../images/sp-bg2.png);
+    background-repeat: no-repeat;
+    background-size: 107px;
+}
