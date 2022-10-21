@@ -550,7 +550,7 @@
     vertical-align: top;
     margin: 2px 5px 0 0;
 }
-.sc-timesquare {
+.sc-realTime-issue {
     position: relative;
     height: 47px;
     margin: 12px 0;
@@ -558,15 +558,14 @@
     letter-spacing: -.25px;
     padding-right: 67px;
 }
-.sc-timesquare .link-box {
+.sc-realTime-issue .link-box {
     display: block;
-    height: 100%;    
     padding: 14px 0 13px 16px;
 }
-.sc-timesquare .link-box:hover .text {
+.sc-realTime-issue .link-box:hover .text {
     text-decoration: underline;
 }
-.sc-timesquare .link-box .badge{
+.sc-realTime-issue .link-box .badge{
     float: left;
     height: 18px;
     padding: 0 7px;
@@ -579,7 +578,7 @@
     font-weight: bold;
     vertical-align: top;
 }
-.sc-timesquare .link-box .text{
+.sc-realTime-issue .link-box .text{
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -588,20 +587,20 @@
     line-height: 19px;
     color: #404040;
 }
-.sc-timesquare .navi-area {
+.sc-realTime-issue .navi-area {
     position: absolute;
     top: 11px;
     right: 10px;
 }
-.sc-timesquare .navi-area .btn-nav {
+.sc-realTime-issue .navi-area .btn-nav {
     float: left;
     background-color: #fff;
     border: 1px solid #e4e8eb;
 }
-.sc-timesquare .navi-area .btn-nav.prev {
+.sc-realTime-issue .navi-area .btn-nav.prev {
     margin-right: -1px;
 }
-.sc-timesquare .navi-area .btn-nav::before {
+.sc-realTime-issue .navi-area .btn-nav::before {
     content: '';
     display: inline-block;
     width: 6px;
@@ -609,10 +608,10 @@
     vertical-align: top;
     margin: 7px 8px 6px;
 }
-.sc-timesquare .navi-area .btn-nav.prev::before {
+.sc-realTime-issue .navi-area .btn-nav.prev::before {
     background-position: -408px -74px;
 }
-.sc-timesquare .navi-area .btn-nav.next::before {
+.sc-realTime-issue .navi-area .btn-nav.next::before {
     background-position: -451px -392px;
 }
 .sc-shop {
