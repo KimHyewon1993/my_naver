@@ -377,7 +377,6 @@
 }
 .footer .service-box::after{content: '';clear: both;display: block;}
 .footer .service-box:first-child {
-    float: left;
     margin-right: 50px;
 }
 .footer .link-service {
@@ -387,6 +386,7 @@
     margin-left: 12px;
 }
 .footer .service-info {
+    float: left;
     overflow: hidden;
 }
 .footer .service-info .title {
