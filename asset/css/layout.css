@@ -375,7 +375,9 @@
     float: left;
     max-width: 150px;
 }
+.footer .service-box::after{content: '';clear: both;display: block;}
 .footer .service-box:first-child {
+    float: left;
     margin-right: 50px;
 }
 .footer .link-service {
